@@ -2,6 +2,7 @@ version: "3.7"
 services:
   easyeda:
     build: ./
-    image: easyeda
+    image: slimgears/easyeda-router
+    restart: always
     ports:
         - "3579:3579"
