@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  easyeda:
+    build: ./
+    image: easyeda
+    ports:
+        - "3579:3579"
